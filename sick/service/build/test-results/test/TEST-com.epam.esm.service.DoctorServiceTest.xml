@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.epam.esm.service.DoctorServiceTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-12-05T17:42:59" hostname="LESYA" time="1.927">
+  <properties/>
+  <testcase name="findByIdentificationNumber_setCorrectIdentificationNumber_shouldBeReturnDoctor" classname="com.epam.esm.service.DoctorServiceTest" time="1.906"/>
+  <testcase name="isDoctorExist_setCorrectIdentificationNumber_shouldBeTrue" classname="com.epam.esm.service.DoctorServiceTest" time="0.002"/>
+  <testcase name="get_setIncorrectId_shouldBeReturnException" classname="com.epam.esm.service.DoctorServiceTest" time="0.005"/>
+  <testcase name="findByIdentificationNumber_setIncorrectIdentificationNumber_shouldBeReturnException" classname="com.epam.esm.service.DoctorServiceTest" time="0.006"/>
+  <testcase name="isDoctorExist_setIncorrectIdentificationNumber_shouldBeFalse" classname="com.epam.esm.service.DoctorServiceTest" time="0.001"/>
+  <testcase name="get_setCorrectId_shouldBeReturnDoctor" classname="com.epam.esm.service.DoctorServiceTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
